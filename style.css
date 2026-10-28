@@ -1,0 +1,164 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+
+body{background-color: rgb(9, 234, 159);
+}
+
+
+.container{width: 800px;
+background-color:white;
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+border-radius: 7px;
+position: relative;
+}
+
+
+.apple{width: 380px;
+height: 540px;
+background-color: rgb(66, 242, 66);
+position: absolute;
+right: 60%;
+top: 5%;
+border-radius: 7px;
+filter: drop-shadow(10px 0px 10px rgb(138, 137, 137));
+}
+
+
+.imgbig{width: 400px;
+height: 400px;
+position: absolute;
+top: 5%;
+right: 15%;
+filter: drop-shadow(0px 0px 10px rgb(5, 5, 5));
+}
+
+
+
+.minigreens{background-color: white;
+height: 100px;
+width: 100%;
+position: absolute;
+bottom: 0%;
+border-radius: 0px 0px 7px 7px;
+display:flex;
+gap: 10px;
+}
+
+
+
+
+.imgsmall{width: 70px;
+height: 70px;
+border-radius: 5px;
+}
+
+
+
+.mini1,.mini2,.mini3,.mini4{margin-top: 10px;
+border: 2px solid black;
+height: 75px;
+border-radius: 5px;
+border-color: rgb(171, 169, 169);
+width: 75px;}
+
+
+.mini1{margin-left: 25px;}
+
+
+
+
+.share{width: 20px;
+height: 20px;
+margin-top: 15px;
+margin-left: 15px;}
+.shareimg{width: 20px;
+height: 20px;}
+
+
+
+
+.Heart{width: 50px;
+height: 50px;
+margin-top: 10px;}
+
+
+.heartimg{width: 50px;
+height: 50px;
+position: absolute;
+right: 0%;
+top: 0%;
+margin-top: 5px;
+}
+
+
+.Text{position: absolute;
+right: 22%;
+margin-top: 50px;}
+
+h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+
+.price{color: red;
+font-size: large;
+padding-top: 20px;}
+
+.b1{font-size: 75px;
+font-weight: 100;}
+
+.COD{font-size: small;
+color: gray;}
+
+.color{color: gray;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+
+
+
+
+
+.Apple1,.Apple2,.Apple3,.Apple4{width: 50px;
+height: 50px;}
+.bigapples{width: 200px;
+height:200px ;
+display: flex;
+position: absolute;
+right: 25%;
+ bottom: 22%;
+ gap: 5px;
+}
+
+.Apple1{border: solid 2px rgb(171, 169, 169);
+border-radius: 5px;}
+
+
+
+.benefits{position: absolute;
+right: 8%;
+bottom: 25%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.b2{color: gray;}
+
+
+
+.button{position: absolute;
+right: 25%;
+bottom: 10%;
+}
+button{width: 200px;
+height: 50px;
+border-radius: 7px;
+background-color: rgb(245, 61, 61);
+border-color: rgb(245, 61, 61);
+}
+.b3{color: white;}
